@@ -17,7 +17,6 @@
 #include <omp.h>
 #include "hnswlib/hnswlib/hnswlib.h"
 #include "flat_scan.h"
-// Flat 模式使用 flat_search_simd（本文件），不调用 flat_scan.h 中的 flat_search
 // 可以自行添加需要的头文件
 
 using namespace hnswlib;
